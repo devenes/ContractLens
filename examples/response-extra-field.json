@@ -1,0 +1,11 @@
+{
+  "id": "usr_99812",
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "status": "active",
+  "createdAt": "2026-01-15T08:30:00Z",
+  "internalDebugId": "dbg_node_42",
+  "profile": {
+    "bio": "Platform Engineer"
+  }
+}

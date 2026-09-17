@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: User Management API
+  version: 1.0.0
+  description: Sample API for demonstrating ContractLens drift detection.
+paths:
+  /users/{id}:
+    get:
+      operationId: getUserById
+      summary: Retrieve a user by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: The user ID
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful response returning user details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - id
+        - createdAt
+      properties:
+        id:
+          type: string
+          description: Unique string identifier for the user
+        name:
+          type: string
+          description: Full display name
+        email:
+          type: string
+          format: email
+        status:
+          type: string
+          description: Account status
+          enum:
+            - active
+            - disabled
+        createdAt:
+          type: string
+          format: date-time
+          description: Timestamp when the user account was created
+        profile:
+          type: object
+          properties:
+            bio:
+              type: string
+            avatarUrl:
+              type: string
