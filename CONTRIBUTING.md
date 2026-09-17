@@ -16,8 +16,8 @@ We are committed to providing a welcoming, productive, and inclusive environment
 
 1. Fork and clone the repository:
    ```bash
-   git clone https://github.com/contractlens/contractlens.git
-   cd contractlens
+   git clone https://github.com/devenes/ContractLens.git
+   cd ContractLens
    ```
 
 2. Download dependencies:

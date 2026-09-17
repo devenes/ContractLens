@@ -2,8 +2,8 @@
 
 **API contract drift detection with Go + Google ADK + Gemini.**
 
-[![CI](https://github.com/contractlens/contractlens/actions/workflows/ci.yml/badge.svg)](https://github.com/contractlens/contractlens/actions)
-[![Security Scan](https://github.com/contractlens/contractlens/actions/workflows/security.yml/badge.svg)](https://github.com/contractlens/contractlens/actions)
+[![CI](https://github.com/devenes/ContractLens/actions/workflows/ci.yml/badge.svg)](https://github.com/devenes/ContractLens/actions)
+[![Security Scan](https://github.com/devenes/ContractLens/actions/workflows/security.yml/badge.svg)](https://github.com/devenes/ContractLens/actions)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8.svg)](https://golang.org)
 
@@ -81,8 +81,8 @@ The agent is forbidden from inventing findings or hallucinating API behavior.
 ### 1. Clone and Build
 
 ```bash
-git clone https://github.com/contractlens/contractlens.git
-cd contractlens
+git clone https://github.com/devenes/ContractLens.git
+cd ContractLens
 
 go mod download
 go build -o bin/contractlens ./cmd/contractlens

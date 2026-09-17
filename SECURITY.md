@@ -9,7 +9,7 @@ The ContractLens team takes security issues seriously. We appreciate your effort
 If you believe you have found a security vulnerability in ContractLens:
 
 1. **Do not create a public issue.** Public issues disclose vulnerabilities before a patch is ready.
-2. Report the vulnerability privately through [GitHub's Security Advisory](https://github.com/contractlens/contractlens/security/advisories/new) reporting tab.
+2. Report the vulnerability privately through [GitHub's Security Advisory](https://github.com/devenes/ContractLens/security/advisories/new) reporting tab.
 3. If private GitHub reporting is unavailable, please contact the maintainers via the contact methods listed on the repository owner's GitHub profile.
 
 ### What to Include
