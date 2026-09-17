@@ -1,4 +1,4 @@
-module github.com/contractlens/contractlens
+module github.com/devenes/ContractLens
 
 go 1.26.6
 

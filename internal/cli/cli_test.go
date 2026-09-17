@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/cli"
+	"github.com/devenes/ContractLens/internal/cli"
 )
 
 func findProjectRoot(t *testing.T) string {

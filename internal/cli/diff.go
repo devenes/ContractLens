@@ -7,9 +7,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
-	"github.com/contractlens/contractlens/internal/openapi"
-	"github.com/contractlens/contractlens/internal/report"
+	"github.com/devenes/ContractLens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/openapi"
+	"github.com/devenes/ContractLens/internal/report"
 )
 
 // RunDiff executes the deterministic contract comparison without requiring AI or network access.

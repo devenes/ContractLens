@@ -6,7 +6,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/contractlens/contractlens/internal/cli"
+	"github.com/devenes/ContractLens/internal/cli"
 )
 
 func main() {

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
-	"github.com/contractlens/contractlens/internal/openapi"
+	"github.com/devenes/ContractLens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/openapi"
 )
 
 const testSpecYAML = `

@@ -3,7 +3,7 @@ package analyzer_test
 import (
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 func TestClassifySeverity(t *testing.T) {

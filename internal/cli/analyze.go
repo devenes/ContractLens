@@ -8,10 +8,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/contractlens/contractlens/internal/agent"
-	"github.com/contractlens/contractlens/internal/analyzer"
-	"github.com/contractlens/contractlens/internal/openapi"
-	"github.com/contractlens/contractlens/internal/report"
+	"github.com/devenes/ContractLens/internal/agent"
+	"github.com/devenes/ContractLens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/openapi"
+	"github.com/devenes/ContractLens/internal/report"
 )
 
 // RunAnalyze executes deterministic drift analysis and invokes the Google ADK agent

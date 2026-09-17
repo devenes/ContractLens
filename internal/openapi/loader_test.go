@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/openapi"
+	"github.com/devenes/ContractLens/internal/openapi"
 )
 
 const sampleSpecYAML = `

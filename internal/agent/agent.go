@@ -16,7 +16,7 @@ import (
 	"google.golang.org/adk/v2/model/gemini"
 	"google.golang.org/adk/v2/runner"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 // DefaultModel is the recommended stable Gemini model in ADK Go examples.

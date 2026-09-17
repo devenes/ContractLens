@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 func TestInferJSONType(t *testing.T) {

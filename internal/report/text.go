@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 // FormatText renders the report in a clean, human-readable terminal format.

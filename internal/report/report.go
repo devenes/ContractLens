@@ -3,7 +3,7 @@ package report
 import (
 	"fmt"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 // AIReport contains the AI agent's assessment of verified contract drift.

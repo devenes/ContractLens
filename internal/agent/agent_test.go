@@ -11,8 +11,8 @@ import (
 
 	"google.golang.org/adk/v2/model"
 
-	"github.com/contractlens/contractlens/internal/agent"
-	"github.com/contractlens/contractlens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/agent"
+	"github.com/devenes/ContractLens/internal/analyzer"
 )
 
 // mockModel implements model.LLM for deterministic offline testing.

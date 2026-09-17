@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/contractlens/contractlens/internal/analyzer"
-	"github.com/contractlens/contractlens/internal/report"
+	"github.com/devenes/ContractLens/internal/analyzer"
+	"github.com/devenes/ContractLens/internal/report"
 )
 
 func TestNewDiffReport_Matching(t *testing.T) {
