@@ -7,6 +7,10 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/Go-1.25%2B-00ADD8.svg)](https://golang.org)
 
+<p align="center">
+  <img src="docs/contractlens.png" alt="ContractLens" width="800">
+</p>
+
 ContractLens detects schema differences between an OpenAPI specification and an observed JSON API response deterministically, then uses an AI agent powered by **Google Agent Development Kit (ADK) for Go** and **Gemini** to explain verified findings, assess consumer impact, and recommend actionable remediation.
 
 ---
