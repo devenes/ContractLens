@@ -1,0 +1,30 @@
+# Binaries and build artifacts
+bin/
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test outputs
+*.test
+*.out
+coverage.out
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Editor and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
